@@ -1,3 +1,6 @@
+package Polimorfismo.exercicio3;
+
+
 public class Funcionario{
       private String name;
     private String email;
@@ -32,5 +35,15 @@ public class Funcionario{
         this.admin = admin;
     }
     
+    public void fazerLogin(String password, String email) {
+    	System.out.println("LOGIN");
+    	System.out.println("Login realizado");
     }
-}
+    public void fazerLogoff() {
+    	System.out.println("Logoff realizado");
+    }
+    public String changePassword(String newPassword) {
+    	this.password = newPassword;
+    	return password;
+    }
+    }

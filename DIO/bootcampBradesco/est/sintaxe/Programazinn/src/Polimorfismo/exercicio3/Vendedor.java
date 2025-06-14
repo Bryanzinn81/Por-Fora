@@ -1,3 +1,4 @@
+package Polimorfismo.exercicio3;
 public class Vendedor extends Funcionario{
      
        private double qtdVendas;
@@ -10,12 +11,16 @@ public class Vendedor extends Funcionario{
         this.qtdVendas += valor;
     }
     
-    public void getVendas(){
+    public double getVendas(){
         return qtdVendas;
     }
-    public double setVendas(double qtdVendas){
+    public void setVendas(double qtdVendas){
         this.qtdVendas = qtdVendas;
         
     }
+    public void consultSales() {
+   	 System.out.println("RELATORIO DE VENDAS");
+        System.out.println("Quantidade de vendas: " + getName() + " vendeu R$" + getVendas());
+   }
      
 }
