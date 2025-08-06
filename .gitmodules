@@ -1,0 +1,6 @@
+[submodule "DIO/bootcampBradesco/Dio-Bradesco-Colection"]
+	path = DIO/bootcampBradesco/Dio-Bradesco-Colection
+	url = https://github.com/Bryanzinn81/Dio-Bradesco-Colection.git
+[submodule "DIO/bootcampBradesco/dio-trilha-java-basico"]
+	path = DIO/bootcampBradesco/dio-trilha-java-basico
+	url = https://github.com/Bryanzinn81/dio-trilha-java-basico.git
